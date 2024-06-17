@@ -1,1 +1,0 @@
-document.getElementById("mainNav").innerHTML = '<li><a href="index.html">Home</a></li>';

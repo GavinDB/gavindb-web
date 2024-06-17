@@ -1,10 +1,16 @@
+/*Root Variables (Constants)*/
+:root {
+	--hd-blue: rgb(4, 4, 28);
+    --ac-blue: rgb(12, 23, 109);
+}
+
 /* ---------------------- Main Navbar ---------------------- */
 ul.mainNav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #04041c;
+	background-color: --bg-blue;
 	position: relative;
 	top: 180px;
 	width: 110%;
@@ -23,5 +29,5 @@ ul.mainNav li a {
 }
 
 ul.mainNav li a:hover {
-	background-color: #0c176d;;
+	background-color: --ac-blue;
 }
