@@ -1,0 +1,41 @@
+/* ---------------------- Website Layout ---------------------- */
+.header {
+	background-image: url("Media/Branding/header.png");
+	background-position: center;
+	background-size: 2560px, 1440px;
+	text-align: center;
+	padding: 30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	opacity: 100%;
+	position: absolute;
+	top: 0;
+  	right: 0;
+  	left: 0;
+}
+
+.side {
+	float: left;
+	width: 15%;
+	Padding: 5px;
+}
+
+.middle {
+	border-radius: 25px;
+	background-color: #01051e;
+	color: white;
+	float: left;
+	width: 70%;
+	Padding: 20px;
+	margin-top: 10px;
+	position: relative;
+	top: 250px;
+}
+
+.footer {
+  	background-color: #F1F1F1;
+  	text-align: center;
+  	padding: 10px;
+}

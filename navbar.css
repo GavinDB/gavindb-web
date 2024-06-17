@@ -1,0 +1,27 @@
+/* ---------------------- Main Navbar ---------------------- */
+ul.mainNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #04041c;
+	position: relative;
+	top: 180px;
+	width: 110%;
+}
+  
+ul.mainNav li {
+	float: left;
+}
+  
+ul.mainNav li a {
+	display: block;
+	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+ul.mainNav li a:hover {
+	background-color: #0c176d;;
+}
