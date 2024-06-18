@@ -52,7 +52,7 @@ ul.mainNav {
 	overflow: hidden;
 	background-color: #04041c;
 	position: relative;
-	top: 180px;
+	top: 160px;
 	width: 100%;
 	left: 0px;
 }
@@ -72,21 +72,23 @@ ul.mainNav li.right {
 
 ul.mainNav li a {
 	display: inline-block;
-	color: white;
+	color: #00ff9c;
   text-align: center;
-	padding: 14px 16px;
+	padding: 7px 12px;
  	text-decoration: none;
+  font-size: 30px;
   font-family: Alkhemikal;
 }
 
 ul.mainNav li a:hover {
 	background-color: #0c176d;
+  color: #ffe400;
 }
 
 ul.mainNav li a img {
   scale: 100%;
-  height: 18px;
-  width: 18px;
+  height: 32px;
+  width: 32px;
   margin: 0;
 	padding: 0;
 	border: 0;
