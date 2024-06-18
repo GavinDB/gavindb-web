@@ -61,6 +61,10 @@ ul.mainNav {
 ul.mainNav li {
 	float: left;
 }
+
+ul.mainNav li.right {
+	float: right;
+}
   
 ul.mainNav li a {
 	display: inline-block;
