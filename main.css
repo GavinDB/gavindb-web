@@ -4,7 +4,7 @@
 
 /* ---------------------- Website Layout ---------------------- */
 .header {
-	background-image: url("/media/branding/header.png");
+	background-image: url("header.png");
 	background-position: center;
 	background-size: 2560px, 1440px;
 	text-align: center;
