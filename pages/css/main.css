@@ -1,7 +1,6 @@
 /*Header Blue #04041c*/
 /*Accent Blue #0c176d*/
 /*Background Blue #01051e*/
-
 /* ---------------------- Website Layout ---------------------- */
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
@@ -65,17 +64,32 @@ ul.mainNav li {
 ul.mainNav li.right {
 	float: right;
 }
-  
+
+@font-face {
+  font-family: Alkhemikal;
+  src: url(https://gavindb.dev/media/Alkhemikal.ttf);
+}
+
 ul.mainNav li a {
 	display: inline-block;
 	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
+  text-align: center;
+	padding: 14px 16px;
+ 	text-decoration: none;
+  font-family: Alkhemikal;
 }
 
 ul.mainNav li a:hover {
 	background-color: #0c176d;
+}
+
+ul.mainNav li a img {
+  scale: 100%;
+  height: 18px;
+  width: 18px;
+  margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 /* ---------------------- Background ---------------------- */
