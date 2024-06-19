@@ -2,6 +2,10 @@
 /*Accent Blue #0c176d*/
 /*Background Blue #01051e*/
 /* ---------------------- Website Layout ---------------------- */
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
 	background-position: center;
