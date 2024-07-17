@@ -12,8 +12,8 @@ body {
 }
 
 @font-face {
-  font-family: Yoster;
-  src: url(https://gavindb.dev/media/yoster.ttf);
+  font-family: Millennia;
+  src: url(https://gavindb.dev/media/MILLENNIA.TTF);
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 }
 
 h2 {
-  font-family: Yoster;
+  font-family: Millenia;
 }
 
 .middle {
