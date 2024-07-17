@@ -6,6 +6,16 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+@font-face {
+  font-family: Alkhemikal;
+  src: url(https://gavindb.dev/media/Alkhemikal.ttf);
+}
+
+@font-face {
+  font-family: Yoster;
+  src: url(https://gavindb.dev/media/yoster.ttf);
+}
+
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
 	background-position: center;
@@ -27,6 +37,28 @@ body {
 	float: left;
 	width: 15%;
 	Padding: 5px;
+}
+
+.filledSide {
+  float: left;
+	width: 15%;
+	Padding: 5px;
+  position: relative;
+  color: white;
+  border-radius: 25px;
+  top: 250px;
+  margin-top: 10px;
+  background-color: #01051e;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.filledSide h2 {
+  color: #ffe501;
+}
+
+h2 {
+  font-family: Yoster;
 }
 
 .middle {
@@ -67,11 +99,6 @@ ul.mainNav li {
 
 ul.mainNav li.right {
 	float: right;
-}
-
-@font-face {
-  font-family: Alkhemikal;
-  src: url(https://gavindb.dev/media/Alkhemikal.ttf);
 }
 
 ul.mainNav li a {
