@@ -11,6 +11,10 @@ body {
   src: url(https://gavindb.dev/media/Alkhemikal.ttf);
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
 	background-position: center;
