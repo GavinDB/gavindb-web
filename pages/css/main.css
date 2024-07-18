@@ -11,11 +11,6 @@ body {
   src: url(https://gavindb.dev/media/Alkhemikal.ttf);
 }
 
-@font-face {
-  font-family: Mono;
-  src: url(https://gavindb.dev/media/VCR_OSD_MONO_1.001.ttf);
-}
-
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
 	background-position: center;
@@ -57,8 +52,13 @@ body {
   color: #ffe501;
 }
 
+a {
+  color: #00ff9c;
+}
+
 h2 {
-  font-family: Mono;
+  font-smooth: never;
+  -webkit-font-smoothing : none;
 }
 
 .middle {

@@ -9,16 +9,7 @@
             <br><br><br><br><br><br><br>
         </div>
         <ul class="mainNav" id="mainNav"></ul>
-        <div class="filledSide">
-            <h2>Side Projects</h2>
-            <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/retropie-icon.png" width="32" height="32">
-            <a href="projects/side/retropie.html"><h3>Full Retropie Guide</h3></a>
-            <h4>Originally Started on the Raspberry Pi 5
-                this has become one of my favorite side projects,
-                including overclocking, RAM splits and pushing the 
-                latest Raspberry Pi as far as possible.
-            </h4>
-        </div>
+        <div class="side"></div>
         <div class="middle">
             <h2 style="color: red;">Oops!</h2>
             <p><h4>I haven't coded this page yet! I'll have to finish it before anything gets here!</h4></p>
