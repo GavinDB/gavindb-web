@@ -15,23 +15,61 @@
                 <tr>
                     <td><a href="https://retropie.org.uk/"><img src="https://gavindb.dev/media/projects/retropie/RetroPieLogo2015Download.png" width="510" height="397"></a></td>
                     <td style="color: white;">
-                        <h2 style="color:#00ff9c;">Project: Retropie</h2>
+                        <h1 style="color:#00ff9c;">Project: Retropie</h1>
                         <h4>Originally Written: 7/18/2024</h4>
                         <br>
                         <p><h4>
                             Retropie is an emulation operating system that can run on many systems but as it's name suggests, it was originally designed for the
-                            <a href="https://www.raspberrypi.com/">Raspbery Pi boards.</a>
+                            <a href="https://www.raspberrypi.com/">Raspbery Pi boards</a>.
                             I recently purchased a Raspberry Pi 5 (as of writting) and wanted to push it to it's absolute limits to play the most recent consoles that it "supports" including the Gamecube and the Wii.
                             As such this guide will be focused on the Raspberry Pi 5 but i will be adding side comments for the Raspberry Pi 4 and will update this article for any future boards or updates to the 
                             operating system.
                         </h4></p>
                         <p><h4>
-                            This guide will cover how to push the Raspberry Pi's performance to be able to play the most recent consoles as best as possible. This process includes overclocking, modifying the 
-                            RAM split, 
+                            This guide will cover how to push the Raspberry Pi's performance to be able to play the most recent consoles as best as possible. This process includes installing Retropie, 
+                            overclocking, modifying the RAM split, installing emulators such as dolphin (Wii/Gamecube), accessing the hidden console and desktop enviornment, and using that enviornment to configure
+                            those emulators.
                         </h4></p>
                     </td>
                 </tr>
             </table>
+            <br>
+            <center><p><h4>
+                If you have any suggestions or additions that should be added to this page, feel free to <a href="mailto:gavind.blakeslee@gmail.com">email me</a>.
+            </h4></p></center>
+            <br>
+            <center><h2 style="color:#00ff9c;">How to install Retropie</h2></center>
+            <hr>
+            <p><h4>
+                There are two ways to install Retropie. You can install retropie with the official <a hraf="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a>, or you can 
+                build Retropie on Raspberry Pi OS. However, I don't know if you can complete this full guide with the official image because as of writing there is no official image for the Raspberry Pi 5. 
+            </h4></p>
+            <h3>Option 1: Install through the Raspberry Pi Imager</h3>
+            <ol>
+                <li>
+                    <h4>
+                        Start by downloading the <a hraf="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a>, then launch the application.
+                    </h4>
+                    <img src="https://assets.raspberrypi.com/static/4d26bd8bf3fa72e6c0c424f9aa7c32ea/d1b7c/imager.webp" width="396" height="295">
+                </li>
+                <li><h4>Select your Raspberry Pi device.</h4></li>
+                <li><h4>Select the Retropie Operating System: Emulation OS > Retropie > Select the version for your pi. If your pi's version is not avalible you will have to build Retropie on Raspberry Pi OS.</h4></li>
+                <li><h4>Select your Storage Device. You can boot off a micro sd card (recommended), usb drive, or through PCIe (Pi5 Only)</h4></li>
+                <li><h4>Click on next, and once your storage device is imaged, connect it to your Raspberry Pi and turn the Pi on.</h4></li>
+            </ol>
+            <h3>Option 2: Build on Raspberry Pi OS</h3>
+            <ol>
+                <li>
+                    <h4>
+                        Start by downloading the <a hraf="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a>, then launch the application.
+                    </h4>
+                    <img src="https://assets.raspberrypi.com/static/4d26bd8bf3fa72e6c0c424f9aa7c32ea/d1b7c/imager.webp" width="396" height="295">
+                </li>
+                <li><h4>Select your Raspberry Pi device.</h4></li>
+                <li><h4>Select Raspberry Pi OS (64-bit) as the Operating System.</h4></li>
+                <li><h4>Select your Storage Device. You can boot off a micro sd card (recommended), usb drive, or through PCIe (Pi5 Only)</h4></li>
+                <li><h4>Click on next, and once your storage device is imaged, connect it to your Raspberry Pi and turn the Pi on.</h4></li>
+            </ol>
         </div>
         <div class="side"></div>
         <script src="https://gavindb.dev/pages/js/innerhtml.js"></script>
