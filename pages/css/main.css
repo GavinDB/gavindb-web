@@ -12,8 +12,8 @@ body {
 }
 
 @font-face {
-  font-family: Millennia;
-  src: url(https://gavindb.dev/media/MILLENNIA.TTF);
+  font-family: Mono;
+  src: url(https://gavindb.dev/media/VCR_OSD_MONO_1.001.ttf);
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 }
 
 h2 {
-  font-family: Millenia;
+  font-family: Mono;
 }
 
 .middle {
