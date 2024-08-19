@@ -60,9 +60,12 @@ a {
   color: #00ff9c;
 }
 
+h1 {
+  color: #00ff9c; 
+}
+
 h2 {
-  font-smooth: never;
-  -webkit-font-smoothing : none;
+  color: #00ff9c;
 }
 
 .middle {
@@ -78,7 +81,7 @@ h2 {
 }
 
 .footer {
-  	background-color: #F1F1F1;
+  	background-color: #04041c;
   	text-align: center;
   	padding: 10px;
 }
