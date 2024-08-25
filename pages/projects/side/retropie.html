@@ -96,6 +96,20 @@
                 <li><h4>Enable configure wireless LAN. This will autofill with the network you are currently on.</h4></li>
                 <li><h4>Finally, enable set locale settings. This is what your menu should now look like:</h4><img src="https://gavindb.dev/media/projects/retropie/os-customized.png" width="234" height="304"></li>
                 <li><h4>Select save, and then click yes. Once your storage device is imaged, connect it to your Raspberry Pi and turn the Pi on.</h4></li>
+                <li><h4>Open the terminal Application and Execute these lines:</h4></li>
+                <h4><code>
+                    sudo apt install git lsb-release<br>
+                    git clone --depth=1 'https://github.com/RetroPie/Retropie-Setup.git'<br>
+                    cd Retropie-Setup<br>
+                    chmod +x retropie_setup.sh<br>
+                    sudo ./retropie_setup.sh
+                </code></h4>
+                <li><h4>
+                    This will install retropie and open the retropie setup script. To navigate this script use the arrow keys and select with enter. Select Basic Install and Install Retropie.
+                </h4></li>
+                <li><h4>Once this is complete go to the Configuration / Tools Menu and enable autostart and bashwelcometweak</h4></li>
+                <li><h4>Now restart the raspberry pi, you can also use the command <code>sudo reboot</code> for this.</h4></li>
+                <li><h4>Welcome to Retropie!</h4></li>
             </ol>
         </div>
         <div class="side"></div>
