@@ -11,13 +11,27 @@ body {
   src: url(https://gavindb.dev/media/Alkhemikal.ttf);
 }
 
+:root {
+  --primary-color: #E6D110;
+  --secondary-color: #C16200;
+  --warning-color: red;
+  --foreground-color: #141115;
+  --foreground-hover-color: #4F3E33;
+  --background-colo: #3D2B1F;
+}
+
+.warning {
+  color: var(--warning-color);
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
 
 .header {
 	background-image: url("https://gavindb.dev/media/header.png");
-	background-position: center;
+	background-position-x: center;
+	background-position-y: 720px;
 	background-size: 2560px, 1440px;
 	text-align: center;
 	padding: 30px;
@@ -47,30 +61,30 @@ body {
   border-radius: 25px;
   top: 250px;
   margin-top: 10px;
-  background-color: #01051e;
+  background-color: var(--foreground-color);
   margin: 10px;
   padding-left: 20px;
 }
 
 .filledSide h2 {
-  color: #ffe501;
+  color: var(--secondary-color);
 }
 
 a {
-  color: #00ff9c;
+  color: var(--primary-color);
 }
 
 h1 {
-  color: #00ff9c; 
+  color: var(--primary-color); 
 }
 
 h2 {
-  color: #00ff9c;
+  color: var(--primary-color);
 }
 
 .middle {
 	border-radius: 25px;
-	background-color: #01051e;
+	background-color: var(--foreground-color);
 	color: white;
 	float: left;
 	width: 70%;
@@ -81,7 +95,7 @@ h2 {
 }
 
 .footer {
-  	background-color: #04041c;
+  	background-color: var(--foreground-color);
   	text-align: center;
   	padding: 10px;
 }
@@ -93,7 +107,7 @@ ul.mainNav {
 	padding: 0;
 	border: 0;
 	overflow: hidden;
-	background-color: #04041c;
+	background-color: var(--foreground-color);
 	position: relative;
 	top: 160px;
 	width: 100%;
@@ -110,7 +124,7 @@ ul.mainNav li.right {
 
 ul.mainNav li a {
 	display: inline-block;
-	color: #00ff9c;
+	color: var(--primary-color);
   text-align: center;
 	padding: 7px 12px;
  	text-decoration: none;
@@ -119,8 +133,8 @@ ul.mainNav li a {
 }
 
 ul.mainNav li a:hover {
-	background-color: #0c176d;
-  color: #ffe400;
+	background-color: var(--foreground-hover-color);
+  color: var(--secondary-color);
 }
 
 ul.mainNav li a img {
@@ -138,7 +152,7 @@ body {
     height: 100vh;
     font-weight: 100;
     /*background: radial-gradient(#24338a,#000c52);*/
-	background: #000c52;
+	background: var(--background-colo);
     overflow-y: auto;
     -webkit-animation: fadeIn 1 1s ease-out;
     -moz-animation: fadeIn 1 1s ease-out;
@@ -151,7 +165,7 @@ body {
     width: 0px;
     opacity: .75;
     background-color: white;
-    box-shadow: #e9f1f1 0px 0px 20px 2px;
+    box-shadow: white 0px 0px 20px 2px;
     opacity: 0;
     top: 100vh;
     bottom: 0px;
