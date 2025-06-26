@@ -1,6 +1,3 @@
-/*Header Blue #04041c*/
-/*Accent Blue #0c176d*/
-/*Background Blue #01051e*/
 /* ---------------------- Website Layout ---------------------- */
 body {
   font-family: 'Times New Roman', Times, serif;
@@ -21,8 +18,8 @@ body {
 } */
 
 :root {
-  --primary-color: #00ffae;
-  --secondary-color: #ffe400;
+  --primary-color: #ffe400;
+  --secondary-color: #00ffae;
   --warning-color: red;
   --foreground-color: #01051e;
   --foreground-hover-color: null;
@@ -77,19 +74,19 @@ body {
 }
 
 .filledSide h2 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h1 {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .middle {
