@@ -20,6 +20,13 @@ body {
   --background-colo: #3D2B1F;
 }
 
+/* :root {
+  --primary-color:
+  --warning-color: red;
+  --foreground-color: #04041c;
+  --background-color: 
+} */
+
 .warning {
   color: var(--warning-color);
 }
@@ -152,7 +159,7 @@ body {
     height: 100vh;
     font-weight: 100;
     /*background: radial-gradient(#24338a,#000c52);*/
-	background: var(--background-colo);
+	background: var(--background-color);
     overflow-y: auto;
     -webkit-animation: fadeIn 1 1s ease-out;
     -moz-animation: fadeIn 1 1s ease-out;
